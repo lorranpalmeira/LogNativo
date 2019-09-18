@@ -1,0 +1,402 @@
+﻿dbug: Microsoft.AspNetCore.Hosting.Internal.WebHost[3] @ 2019-09-18T12:46:52.2161260-03:00
+      Hosting starting
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0] @ 2019-09-18T12:46:52.3292248-03:00
+      User profile is available. Using 'C:\Users\Lorran\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+dbug: Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository[37] @ 2019-09-18T12:46:52.3352507-03:00
+      Reading data from file 'C:\Users\Lorran\AppData\Local\ASP.NET\DataProtection-Keys\key-19b51caf-d931-48f6-a8fd-06f5dac54125.xml'.
+dbug: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[18] @ 2019-09-18T12:46:52.3546023-03:00
+      Found key {19b51caf-d931-48f6-a8fd-06f5dac54125}.
+dbug: Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver[13] @ 2019-09-18T12:46:52.3606811-03:00
+      Considering key {19b51caf-d931-48f6-a8fd-06f5dac54125} with expiration date 2019-10-21 13:03:25Z as default key.
+dbug: Microsoft.AspNetCore.DataProtection.TypeForwardingActivator[0] @ 2019-09-18T12:46:52.3947818-03:00
+      Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+dbug: Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor[51] @ 2019-09-18T12:46:52.3951677-03:00
+      Decrypting secret element using Windows DPAPI.
+dbug: Microsoft.AspNetCore.DataProtection.TypeForwardingActivator[0] @ 2019-09-18T12:46:52.3961179-03:00
+      Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+dbug: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory[4] @ 2019-09-18T12:46:52.3966253-03:00
+      Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+dbug: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory[3] @ 2019-09-18T12:46:52.3983683-03:00
+      Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+dbug: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider[2] @ 2019-09-18T12:46:52.4008883-03:00
+      Using key {19b51caf-d931-48f6-a8fd-06f5dac54125} as the default key.
+dbug: Microsoft.AspNetCore.DataProtection.Internal.DataProtectionStartupFilter[0] @ 2019-09-18T12:46:52.4011565-03:00
+      Key ring with default key {19b51caf-d931-48f6-a8fd-06f5dac54125} was loaded during application startup.
+dbug: Microsoft.AspNetCore.Mvc.MvcJsonOptions[0] @ 2019-09-18T12:46:52.4218756-03:00
+      Compatibility switch AllowInputFormatterExceptionMessages in type MvcJsonOptions is using compatibility value True for version Version_2_2
+dbug: Microsoft.AspNetCore.Mvc.MvcOptions[0] @ 2019-09-18T12:46:52.4375075-03:00
+      Compatibility switch AllowCombiningAuthorizeFilters in type MvcOptions is using compatibility value True for version Version_2_2
+dbug: Microsoft.AspNetCore.Mvc.MvcOptions[0] @ 2019-09-18T12:46:52.4375272-03:00
+      Compatibility switch AllowBindingHeaderValuesToNonStringModelTypes in type MvcOptions is using compatibility value True for version Version_2_2
+dbug: Microsoft.AspNetCore.Mvc.MvcOptions[0] @ 2019-09-18T12:46:52.4375315-03:00
+      Compatibility switch AllowValidatingTopLevelNodes in type MvcOptions is using compatibility value True for version Version_2_2
+dbug: Microsoft.AspNetCore.Mvc.MvcOptions[0] @ 2019-09-18T12:46:52.4375843-03:00
+      Compatibility switch InputFormatterExceptionPolicy in type MvcOptions is using compatibility value MalformedInputExceptions for version Version_2_2
+dbug: Microsoft.AspNetCore.Mvc.MvcOptions[0] @ 2019-09-18T12:46:52.4376003-03:00
+      Compatibility switch SuppressBindingUndefinedValueToEnumType in type MvcOptions is using compatibility value True for version Version_2_2
+dbug: Microsoft.AspNetCore.Mvc.MvcOptions[0] @ 2019-09-18T12:46:52.4376037-03:00
+      Compatibility switch EnableEndpointRouting in type MvcOptions is using compatibility value True for version Version_2_2
+dbug: Microsoft.AspNetCore.Mvc.MvcOptions[0] @ 2019-09-18T12:46:52.4376359-03:00
+      Compatibility switch MaxValidationDepth in type MvcOptions is using compatibility value 32 for version Version_2_2
+dbug: Microsoft.AspNetCore.Mvc.MvcOptions[0] @ 2019-09-18T12:46:52.4376517-03:00
+      Compatibility switch AllowShortCircuitingValidationWhenNoValidatorsArePresent in type MvcOptions is using compatibility value True for version Version_2_2
+dbug: Microsoft.AspNetCore.Mvc.ApiBehaviorOptions[0] @ 2019-09-18T12:46:52.4432720-03:00
+      Compatibility switch SuppressMapClientErrors in type ApiBehaviorOptions is using default value False
+dbug: Microsoft.AspNetCore.Mvc.ApiBehaviorOptions[0] @ 2019-09-18T12:46:52.4432876-03:00
+      Compatibility switch SuppressUseValidationProblemDetailsForInvalidModelStateResponses in type ApiBehaviorOptions is using default value False
+dbug: Microsoft.AspNetCore.Mvc.ApiBehaviorOptions[0] @ 2019-09-18T12:46:52.4432911-03:00
+      Compatibility switch AllowInferringBindingSourceForCollectionTypesAsFromQuery in type ApiBehaviorOptions is using default value False
+dbug: Microsoft.AspNetCore.Mvc.RazorPages.RazorPagesOptions[0] @ 2019-09-18T12:46:52.4453958-03:00
+      Compatibility switch AllowAreas in type RazorPagesOptions is using compatibility value True for version Version_2_2
+dbug: Microsoft.AspNetCore.Mvc.RazorPages.RazorPagesOptions[0] @ 2019-09-18T12:46:52.4454137-03:00
+      Compatibility switch AllowMappingHeadRequestsToGetHandler in type RazorPagesOptions is using compatibility value True for version Version_2_2
+dbug: Microsoft.AspNetCore.Mvc.RazorPages.RazorPagesOptions[0] @ 2019-09-18T12:46:52.4454177-03:00
+      Compatibility switch AllowDefaultHandlingForOptionsRequests in type RazorPagesOptions is using compatibility value True for version Version_2_2
+dbug: Microsoft.AspNetCore.Mvc.Razor.RazorViewEngineOptions[0] @ 2019-09-18T12:46:52.4525355-03:00
+      Compatibility switch AllowRecompilingViewsOnFileChange in type RazorViewEngineOptions is using explicitly configured value True
+dbug: Microsoft.AspNetCore.Mvc.MvcViewOptions[0] @ 2019-09-18T12:46:52.4691638-03:00
+      Compatibility switch SuppressTempDataAttributePrefix in type MvcViewOptions is using compatibility value True for version Version_2_2
+dbug: Microsoft.AspNetCore.Mvc.MvcViewOptions[0] @ 2019-09-18T12:46:52.4691849-03:00
+      Compatibility switch AllowRenderingMaxLengthAttribute in type MvcViewOptions is using compatibility value True for version Version_2_2
+dbug: Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory[12] @ 2019-09-18T12:46:52.4915210-03:00
+      Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider
+dbug: Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer[FailedToLocateDevelopmentCertificateFile] @ 2019-09-18T12:46:52.5956463-03:00
+      Failed to locate the development https certificate at '(null)'.
+dbug: Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer[LocatedDevelopmentCertificate] @ 2019-09-18T12:46:52.6522648-03:00
+      Using development certificate: CN=localhost (Thumbprint: 779EF85BCA0B0C86FD26254C13666A91B2CA8841)
+dbug: Microsoft.AspNetCore.Hosting.Internal.WebHost[4] @ 2019-09-18T12:46:52.6868340-03:00
+      Hosting started
+dbug: Microsoft.AspNetCore.Hosting.Internal.WebHost[0] @ 2019-09-18T12:46:52.6868803-03:00
+      Loaded hosting startup assembly LogNativoExemplo
+dbug: Microsoft.AspNetCore.Server.Kestrel[ConnectionStart] @ 2019-09-18T12:46:52.9495253-03:00
+      Connection id "0HLPS9TMK5HV8" started.
+dbug: Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets[ConnectionReadFin] @ 2019-09-18T12:46:53.0931401-03:00
+      Connection id "0HLPS9TMK5HV8" received FIN.
+dbug: Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionAdapter[1] @ 2019-09-18T12:46:53.1091025-03:00
+      => ConnectionId:0HLPS9TMK5HV8
+      Failed to authenticate HTTPS connection.
+System.IO.IOException: Authentication failed because the remote party has closed the transport stream.
+   at System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.PartialFrameCallback(AsyncProtocolRequest asyncRequest)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Security.SslState.ThrowIfExceptional()
+   at System.Net.Security.SslState.InternalEndProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.Security.SslState.EndProcessAuthentication(IAsyncResult result)
+   at System.Net.Security.SslStream.EndAuthenticateAsServer(IAsyncResult asyncResult)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__51_1(IAsyncResult iar)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionAdapter.InnerOnConnectionAsync(ConnectionAdapterContext context)
+dbug: Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets[ConnectionWriteFin] @ 2019-09-18T12:46:53.1802156-03:00
+      => ConnectionId:0HLPS9TMK5HV8
+      Connection id "0HLPS9TMK5HV8" sending FIN because: "The client closed the connection."
+dbug: Microsoft.AspNetCore.Server.Kestrel[ConnectionDisconnect] @ 2019-09-18T12:46:53.1809938-03:00
+      => ConnectionId:0HLPS9TMK5HV8
+      Connection id "0HLPS9TMK5HV8" disconnecting.
+dbug: Microsoft.AspNetCore.Server.Kestrel[ConnectionStop] @ 2019-09-18T12:46:53.1932778-03:00
+      Connection id "0HLPS9TMK5HV8" stopped.
+dbug: Microsoft.AspNetCore.Server.Kestrel[ConnectionStart] @ 2019-09-18T12:46:57.4535003-03:00
+      Connection id "0HLPS9TMK5HV9" started.
+dbug: Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets[ConnectionReadFin] @ 2019-09-18T12:46:57.4541324-03:00
+      Connection id "0HLPS9TMK5HV9" received FIN.
+dbug: Microsoft.AspNetCore.Server.Kestrel[ConnectionStart] @ 2019-09-18T12:46:57.4545786-03:00
+      Connection id "0HLPS9TMK5HVA" started.
+dbug: Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionAdapter[1] @ 2019-09-18T12:46:57.4559978-03:00
+      => ConnectionId:0HLPS9TMK5HV9
+      Failed to authenticate HTTPS connection.
+System.IO.IOException: Authentication failed because the remote party has closed the transport stream.
+   at System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.Security.SslStream.BeginAuthenticateAsServer(SslServerAuthenticationOptions sslServerAuthenticationOptions, CancellationToken cancellationToken, AsyncCallback asyncCallback, Object asyncState)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__51_0(SslServerAuthenticationOptions arg1, CancellationToken arg2, AsyncCallback callback, Object state)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl[TArg1,TArg2](Func`5 beginMethod, Func`2 endFunction, Action`1 endAction, TArg1 arg1, TArg2 arg2, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync[TArg1,TArg2](Func`5 beginMethod, Action`1 endMethod, TArg1 arg1, TArg2 arg2, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync[TArg1,TArg2](Func`5 beginMethod, Action`1 endMethod, TArg1 arg1, TArg2 arg2, Object state)
+   at System.Net.Security.SslStream.AuthenticateAsServerAsync(SslServerAuthenticationOptions sslServerAuthenticationOptions, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionAdapter.InnerOnConnectionAsync(ConnectionAdapterContext context)
+dbug: Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets[ConnectionWriteFin] @ 2019-09-18T12:46:57.4569136-03:00
+      => ConnectionId:0HLPS9TMK5HV9
+      Connection id "0HLPS9TMK5HV9" sending FIN because: "The client closed the connection."
+dbug: Microsoft.AspNetCore.Server.Kestrel[ConnectionDisconnect] @ 2019-09-18T12:46:57.4571384-03:00
+      => ConnectionId:0HLPS9TMK5HV9
+      Connection id "0HLPS9TMK5HV9" disconnecting.
+dbug: Microsoft.AspNetCore.Server.Kestrel[ConnectionStop] @ 2019-09-18T12:46:57.4584137-03:00
+      Connection id "0HLPS9TMK5HV9" stopped.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1] @ 2019-09-18T12:46:57.5347214-03:00
+      => ConnectionId:0HLPS9TMK5HVA => RequestId:0HLPS9TMK5HVA:00000001 RequestPath:/api/values
+      Request starting HTTP/1.1 GET https://localhost:5001/api/values  
+dbug: Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware[0] @ 2019-09-18T12:46:57.5368262-03:00
+      => ConnectionId:0HLPS9TMK5HVA => RequestId:0HLPS9TMK5HVA:00000001 RequestPath:/api/values
+      Wildcard detected, all requests with hosts will be allowed.
+dbug: Microsoft.AspNetCore.Routing.Matching.DfaMatcher[CandidatesFound] @ 2019-09-18T12:46:57.5662276-03:00
+      => ConnectionId:0HLPS9TMK5HVA => RequestId:0HLPS9TMK5HVA:00000001 RequestPath:/api/values
+      1 candidate(s) found for the request path '/api/values'
+dbug: Microsoft.AspNetCore.Routing.Matching.DfaMatcher[CandiateValid] @ 2019-09-18T12:46:57.5669612-03:00
+      => ConnectionId:0HLPS9TMK5HVA => RequestId:0HLPS9TMK5HVA:00000001 RequestPath:/api/values
+      Endpoint 'LogNativoExemplo.Controllers.ValuesController.Get (LogNativoExemplo)' with route pattern 'api/Values' is valid for the request path '/api/values'
+dbug: Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware[MatchSuccess] @ 2019-09-18T12:46:57.5672809-03:00
+      => ConnectionId:0HLPS9TMK5HVA => RequestId:0HLPS9TMK5HVA:00000001 RequestPath:/api/values
+      Request matched endpoint 'LogNativoExemplo.Controllers.ValuesController.Get (LogNativoExemplo)'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[ExecutingEndpoint] @ 2019-09-18T12:46:57.5701595-03:00
+      => ConnectionId:0HLPS9TMK5HVA => RequestId:0HLPS9TMK5HVA:00000001 RequestPath:/api/values
+      Executing endpoint 'LogNativoExemplo.Controllers.ValuesController.Get (LogNativoExemplo)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3] @ 2019-09-18T12:46:57.5910339-03:00
+      => ConnectionId:0HLPS9TMK5HVA => RequestId:0HLPS9TMK5HVA:00000001 RequestPath:/api/values => LogNativoExemplo.Controllers.ValuesController.Get (LogNativoExemplo)
+      Route matched with {action = "Get", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get() on controller LogNativoExemplo.Controllers.ValuesController (LogNativoExemplo).
+dbug: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1] @ 2019-09-18T12:46:57.5914724-03:00
+      => ConnectionId:0HLPS9TMK5HVA => RequestId:0HLPS9TMK5HVA:00000001 RequestPath:/api/values => LogNativoExemplo.Controllers.ValuesController.Get (LogNativoExemplo)
+      Execution plan of authorization filters (in the following order): None
+dbug: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1] @ 2019-09-18T12:46:57.5916037-03:00
+      => ConnectionId:0HLPS9TMK5HVA => RequestId:0HLPS9TMK5HVA:00000001 RequestPath:/api/values => LogNativoExemplo.Controllers.ValuesController.Get (LogNativoExemplo)
+      Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.SaveTempDataFilter
+dbug: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1] @ 2019-09-18T12:46:57.5916737-03:00
+      => ConnectionId:0HLPS9TMK5HVA => RequestId:0HLPS9TMK5HVA:00000001 RequestPath:/api/values => LogNativoExemplo.Controllers.ValuesController.Get (LogNativoExemplo)
+      Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+dbug: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1] @ 2019-09-18T12:46:57.5917295-03:00
+      => ConnectionId:0HLPS9TMK5HVA => RequestId:0HLPS9TMK5HVA:00000001 RequestPath:/api/values => LogNativoExemplo.Controllers.ValuesController.Get (LogNativoExemplo)
+      Execution plan of exception filters (in the following order): None
+dbug: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1] @ 2019-09-18T12:46:57.5917714-03:00
+      => ConnectionId:0HLPS9TMK5HVA => RequestId:0HLPS9TMK5HVA:00000001 RequestPath:/api/values => LogNativoExemplo.Controllers.ValuesController.Get (LogNativoExemplo)
+      Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.SaveTempDataFilter, Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1] @ 2019-09-18T12:46:57.6007731-03:00
+      => ConnectionId:0HLPS9TMK5HVA => RequestId:0HLPS9TMK5HVA:00000001 RequestPath:/api/values => LogNativoExemplo.Controllers.ValuesController.Get (LogNativoExemplo)
+      Executing action method LogNativoExemplo.Controllers.ValuesController.Get (LogNativoExemplo) - Validation state: Valid
+info: LogNativoExemplo.Controllers.ValuesController[0] @ 2019-09-18T12:47:00.8803622-03:00
+      => ConnectionId:0HLPS9TMK5HVA => RequestId:0HLPS9TMK5HVA:00000001 RequestPath:/api/values => LogNativoExemplo.Controllers.ValuesController.Get (LogNativoExemplo)
+      Primeiro Log
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2] @ 2019-09-18T12:47:00.8883050-03:00
+      => ConnectionId:0HLPS9TMK5HVA => RequestId:0HLPS9TMK5HVA:00000001 RequestPath:/api/values => LogNativoExemplo.Controllers.ValuesController.Get (LogNativoExemplo)
+      Executed action method LogNativoExemplo.Controllers.ValuesController.Get (LogNativoExemplo), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3279.9226ms.
+dbug: Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector[11] @ 2019-09-18T12:47:00.8957606-03:00
+      => ConnectionId:0HLPS9TMK5HVA => RequestId:0HLPS9TMK5HVA:00000001 RequestPath:/api/values => LogNativoExemplo.Controllers.ValuesController.Get (LogNativoExemplo)
+      List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter
+dbug: Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector[4] @ 2019-09-18T12:47:00.9000634-03:00
+      => ConnectionId:0HLPS9TMK5HVA => RequestId:0HLPS9TMK5HVA:00000001 RequestPath:/api/values => LogNativoExemplo.Controllers.ValuesController.Get (LogNativoExemplo)
+      No information found on request to perform content negotiation.
+dbug: Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector[8] @ 2019-09-18T12:47:00.9001108-03:00
+      => ConnectionId:0HLPS9TMK5HVA => RequestId:0HLPS9TMK5HVA:00000001 RequestPath:/api/values => LogNativoExemplo.Controllers.ValuesController.Get (LogNativoExemplo)
+      Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+dbug: Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector[10] @ 2019-09-18T12:47:00.9001478-03:00
+      => ConnectionId:0HLPS9TMK5HVA => RequestId:0HLPS9TMK5HVA:00000001 RequestPath:/api/values => LogNativoExemplo.Controllers.ValuesController.Get (LogNativoExemplo)
+      Attempting to select the first formatter in the output formatters list which can write the result.
+dbug: Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector[2] @ 2019-09-18T12:47:00.9005438-03:00
+      => ConnectionId:0HLPS9TMK5HVA => RequestId:0HLPS9TMK5HVA:00000001 RequestPath:/api/values => LogNativoExemplo.Controllers.ValuesController.Get (LogNativoExemplo)
+      Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter' and content type 'application/json' to write the response.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1] @ 2019-09-18T12:47:00.9030406-03:00
+      => ConnectionId:0HLPS9TMK5HVA => RequestId:0HLPS9TMK5HVA:00000001 RequestPath:/api/values => LogNativoExemplo.Controllers.ValuesController.Get (LogNativoExemplo)
+      Executing ObjectResult, writing value of type 'System.String[]'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2] @ 2019-09-18T12:47:00.9886650-03:00
+      => ConnectionId:0HLPS9TMK5HVA => RequestId:0HLPS9TMK5HVA:00000001 RequestPath:/api/values => LogNativoExemplo.Controllers.ValuesController.Get (LogNativoExemplo)
+      Executed action LogNativoExemplo.Controllers.ValuesController.Get (LogNativoExemplo) in 3391.4668ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[ExecutedEndpoint] @ 2019-09-18T12:47:00.9903836-03:00
+      => ConnectionId:0HLPS9TMK5HVA => RequestId:0HLPS9TMK5HVA:00000001 RequestPath:/api/values
+      Executed endpoint 'LogNativoExemplo.Controllers.ValuesController.Get (LogNativoExemplo)'
+dbug: Microsoft.AspNetCore.Server.Kestrel[ConnectionKeepAlive] @ 2019-09-18T12:47:00.9916081-03:00
+      => ConnectionId:0HLPS9TMK5HVA => RequestId:0HLPS9TMK5HVA:00000001 RequestPath:/api/values
+      Connection id "0HLPS9TMK5HVA" completed keep alive response.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2] @ 2019-09-18T12:47:00.9986341-03:00
+      => ConnectionId:0HLPS9TMK5HVA => RequestId:0HLPS9TMK5HVA:00000001 RequestPath:/api/values
+      Request finished in 3463.6661ms 200 application/json; charset=utf-8
+dbug: Microsoft.AspNetCore.Hosting.Internal.WebHost[3] @ 2019-09-18T12:48:43.1613758-03:00
+      Hosting starting
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0] @ 2019-09-18T12:48:43.2672281-03:00
+      User profile is available. Using 'C:\Users\Lorran\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+dbug: Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository[37] @ 2019-09-18T12:48:43.2734770-03:00
+      Reading data from file 'C:\Users\Lorran\AppData\Local\ASP.NET\DataProtection-Keys\key-19b51caf-d931-48f6-a8fd-06f5dac54125.xml'.
+dbug: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[18] @ 2019-09-18T12:48:43.2952492-03:00
+      Found key {19b51caf-d931-48f6-a8fd-06f5dac54125}.
+dbug: Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver[13] @ 2019-09-18T12:48:43.3021438-03:00
+      Considering key {19b51caf-d931-48f6-a8fd-06f5dac54125} with expiration date 2019-10-21 13:03:25Z as default key.
+dbug: Microsoft.AspNetCore.DataProtection.TypeForwardingActivator[0] @ 2019-09-18T12:48:43.3402498-03:00
+      Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+dbug: Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor[51] @ 2019-09-18T12:48:43.3407062-03:00
+      Decrypting secret element using Windows DPAPI.
+dbug: Microsoft.AspNetCore.DataProtection.TypeForwardingActivator[0] @ 2019-09-18T12:48:43.3419898-03:00
+      Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+dbug: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory[4] @ 2019-09-18T12:48:43.3427870-03:00
+      Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+dbug: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory[3] @ 2019-09-18T12:48:43.3447997-03:00
+      Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+dbug: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider[2] @ 2019-09-18T12:48:43.3480701-03:00
+      Using key {19b51caf-d931-48f6-a8fd-06f5dac54125} as the default key.
+dbug: Microsoft.AspNetCore.DataProtection.Internal.DataProtectionStartupFilter[0] @ 2019-09-18T12:48:43.3483944-03:00
+      Key ring with default key {19b51caf-d931-48f6-a8fd-06f5dac54125} was loaded during application startup.
+dbug: Microsoft.AspNetCore.Mvc.MvcJsonOptions[0] @ 2019-09-18T12:48:43.3714221-03:00
+      Compatibility switch AllowInputFormatterExceptionMessages in type MvcJsonOptions is using compatibility value True for version Version_2_2
+dbug: Microsoft.AspNetCore.Mvc.MvcOptions[0] @ 2019-09-18T12:48:43.3884312-03:00
+      Compatibility switch AllowCombiningAuthorizeFilters in type MvcOptions is using compatibility value True for version Version_2_2
+dbug: Microsoft.AspNetCore.Mvc.MvcOptions[0] @ 2019-09-18T12:48:43.3884658-03:00
+      Compatibility switch AllowBindingHeaderValuesToNonStringModelTypes in type MvcOptions is using compatibility value True for version Version_2_2
+dbug: Microsoft.AspNetCore.Mvc.MvcOptions[0] @ 2019-09-18T12:48:43.3884703-03:00
+      Compatibility switch AllowValidatingTopLevelNodes in type MvcOptions is using compatibility value True for version Version_2_2
+dbug: Microsoft.AspNetCore.Mvc.MvcOptions[0] @ 2019-09-18T12:48:43.3885023-03:00
+      Compatibility switch InputFormatterExceptionPolicy in type MvcOptions is using compatibility value MalformedInputExceptions for version Version_2_2
+dbug: Microsoft.AspNetCore.Mvc.MvcOptions[0] @ 2019-09-18T12:48:43.3885189-03:00
+      Compatibility switch SuppressBindingUndefinedValueToEnumType in type MvcOptions is using compatibility value True for version Version_2_2
+dbug: Microsoft.AspNetCore.Mvc.MvcOptions[0] @ 2019-09-18T12:48:43.3885221-03:00
+      Compatibility switch EnableEndpointRouting in type MvcOptions is using compatibility value True for version Version_2_2
+dbug: Microsoft.AspNetCore.Mvc.MvcOptions[0] @ 2019-09-18T12:48:43.3885603-03:00
+      Compatibility switch MaxValidationDepth in type MvcOptions is using compatibility value 32 for version Version_2_2
+dbug: Microsoft.AspNetCore.Mvc.MvcOptions[0] @ 2019-09-18T12:48:43.3885747-03:00
+      Compatibility switch AllowShortCircuitingValidationWhenNoValidatorsArePresent in type MvcOptions is using compatibility value True for version Version_2_2
+dbug: Microsoft.AspNetCore.Mvc.ApiBehaviorOptions[0] @ 2019-09-18T12:48:43.3966964-03:00
+      Compatibility switch SuppressMapClientErrors in type ApiBehaviorOptions is using default value False
+dbug: Microsoft.AspNetCore.Mvc.ApiBehaviorOptions[0] @ 2019-09-18T12:48:43.3967198-03:00
+      Compatibility switch SuppressUseValidationProblemDetailsForInvalidModelStateResponses in type ApiBehaviorOptions is using default value False
+dbug: Microsoft.AspNetCore.Mvc.ApiBehaviorOptions[0] @ 2019-09-18T12:48:43.3967237-03:00
+      Compatibility switch AllowInferringBindingSourceForCollectionTypesAsFromQuery in type ApiBehaviorOptions is using default value False
+dbug: Microsoft.AspNetCore.Mvc.RazorPages.RazorPagesOptions[0] @ 2019-09-18T12:48:43.3993913-03:00
+      Compatibility switch AllowAreas in type RazorPagesOptions is using compatibility value True for version Version_2_2
+dbug: Microsoft.AspNetCore.Mvc.RazorPages.RazorPagesOptions[0] @ 2019-09-18T12:48:43.3994155-03:00
+      Compatibility switch AllowMappingHeadRequestsToGetHandler in type RazorPagesOptions is using compatibility value True for version Version_2_2
+dbug: Microsoft.AspNetCore.Mvc.RazorPages.RazorPagesOptions[0] @ 2019-09-18T12:48:43.3994198-03:00
+      Compatibility switch AllowDefaultHandlingForOptionsRequests in type RazorPagesOptions is using compatibility value True for version Version_2_2
+dbug: Microsoft.AspNetCore.Mvc.Razor.RazorViewEngineOptions[0] @ 2019-09-18T12:48:43.4071808-03:00
+      Compatibility switch AllowRecompilingViewsOnFileChange in type RazorViewEngineOptions is using explicitly configured value True
+dbug: Microsoft.AspNetCore.Mvc.MvcViewOptions[0] @ 2019-09-18T12:48:43.4249018-03:00
+      Compatibility switch SuppressTempDataAttributePrefix in type MvcViewOptions is using compatibility value True for version Version_2_2
+dbug: Microsoft.AspNetCore.Mvc.MvcViewOptions[0] @ 2019-09-18T12:48:43.4249317-03:00
+      Compatibility switch AllowRenderingMaxLengthAttribute in type MvcViewOptions is using compatibility value True for version Version_2_2
+dbug: Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory[12] @ 2019-09-18T12:48:43.4486189-03:00
+      Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider
+dbug: Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer[FailedToLocateDevelopmentCertificateFile] @ 2019-09-18T12:48:43.5627383-03:00
+      Failed to locate the development https certificate at '(null)'.
+dbug: Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer[LocatedDevelopmentCertificate] @ 2019-09-18T12:48:43.6246249-03:00
+      Using development certificate: CN=localhost (Thumbprint: 779EF85BCA0B0C86FD26254C13666A91B2CA8841)
+dbug: Microsoft.AspNetCore.Hosting.Internal.WebHost[4] @ 2019-09-18T12:48:43.6627590-03:00
+      Hosting started
+dbug: Microsoft.AspNetCore.Hosting.Internal.WebHost[0] @ 2019-09-18T12:48:43.6628095-03:00
+      Loaded hosting startup assembly LogNativoExemplo
+dbug: Microsoft.AspNetCore.Server.Kestrel[ConnectionStart] @ 2019-09-18T12:48:43.9376987-03:00
+      Connection id "0HLPS9UNMKA7O" started.
+dbug: Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets[ConnectionReadFin] @ 2019-09-18T12:48:44.0669835-03:00
+      Connection id "0HLPS9UNMKA7O" received FIN.
+dbug: Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionAdapter[1] @ 2019-09-18T12:48:44.0815019-03:00
+      => ConnectionId:0HLPS9UNMKA7O
+      Failed to authenticate HTTPS connection.
+System.IO.IOException: Authentication failed because the remote party has closed the transport stream.
+   at System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.PartialFrameCallback(AsyncProtocolRequest asyncRequest)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Security.SslState.ThrowIfExceptional()
+   at System.Net.Security.SslState.InternalEndProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.Security.SslState.EndProcessAuthentication(IAsyncResult result)
+   at System.Net.Security.SslStream.EndAuthenticateAsServer(IAsyncResult asyncResult)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__51_1(IAsyncResult iar)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionAdapter.InnerOnConnectionAsync(ConnectionAdapterContext context)
+dbug: Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets[ConnectionWriteFin] @ 2019-09-18T12:48:44.1597924-03:00
+      => ConnectionId:0HLPS9UNMKA7O
+      Connection id "0HLPS9UNMKA7O" sending FIN because: "The client closed the connection."
+dbug: Microsoft.AspNetCore.Server.Kestrel[ConnectionDisconnect] @ 2019-09-18T12:48:44.1618174-03:00
+      => ConnectionId:0HLPS9UNMKA7O
+      Connection id "0HLPS9UNMKA7O" disconnecting.
+dbug: Microsoft.AspNetCore.Server.Kestrel[ConnectionStop] @ 2019-09-18T12:48:44.1761867-03:00
+      Connection id "0HLPS9UNMKA7O" stopped.
+dbug: Microsoft.AspNetCore.Server.Kestrel[ConnectionStart] @ 2019-09-18T12:48:46.4828221-03:00
+      Connection id "0HLPS9UNMKA7P" started.
+dbug: Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets[ConnectionReadFin] @ 2019-09-18T12:48:46.4838569-03:00
+      Connection id "0HLPS9UNMKA7P" received FIN.
+dbug: Microsoft.AspNetCore.Server.Kestrel[ConnectionStart] @ 2019-09-18T12:48:46.4842165-03:00
+      Connection id "0HLPS9UNMKA7Q" started.
+dbug: Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionAdapter[1] @ 2019-09-18T12:48:46.4884441-03:00
+      => ConnectionId:0HLPS9UNMKA7P
+      Failed to authenticate HTTPS connection.
+System.IO.IOException: Authentication failed because the remote party has closed the transport stream.
+   at System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.Security.SslStream.BeginAuthenticateAsServer(SslServerAuthenticationOptions sslServerAuthenticationOptions, CancellationToken cancellationToken, AsyncCallback asyncCallback, Object asyncState)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__51_0(SslServerAuthenticationOptions arg1, CancellationToken arg2, AsyncCallback callback, Object state)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl[TArg1,TArg2](Func`5 beginMethod, Func`2 endFunction, Action`1 endAction, TArg1 arg1, TArg2 arg2, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync[TArg1,TArg2](Func`5 beginMethod, Action`1 endMethod, TArg1 arg1, TArg2 arg2, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync[TArg1,TArg2](Func`5 beginMethod, Action`1 endMethod, TArg1 arg1, TArg2 arg2, Object state)
+   at System.Net.Security.SslStream.AuthenticateAsServerAsync(SslServerAuthenticationOptions sslServerAuthenticationOptions, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionAdapter.InnerOnConnectionAsync(ConnectionAdapterContext context)
+dbug: Microsoft.AspNetCore.Server.Kestrel[ConnectionDisconnect] @ 2019-09-18T12:48:46.4902231-03:00
+      => ConnectionId:0HLPS9UNMKA7P
+      Connection id "0HLPS9UNMKA7P" disconnecting.
+dbug: Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets[ConnectionWriteFin] @ 2019-09-18T12:48:46.4904658-03:00
+      => ConnectionId:0HLPS9UNMKA7P
+      Connection id "0HLPS9UNMKA7P" sending FIN because: "The client closed the connection."
+dbug: Microsoft.AspNetCore.Server.Kestrel[ConnectionStop] @ 2019-09-18T12:48:46.4928506-03:00
+      Connection id "0HLPS9UNMKA7P" stopped.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1] @ 2019-09-18T12:48:46.5432244-03:00
+      => ConnectionId:0HLPS9UNMKA7Q => RequestId:0HLPS9UNMKA7Q:00000001 RequestPath:/api/values
+      Request starting HTTP/1.1 GET https://localhost:5001/api/values  
+dbug: Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware[0] @ 2019-09-18T12:48:46.5460120-03:00
+      => ConnectionId:0HLPS9UNMKA7Q => RequestId:0HLPS9UNMKA7Q:00000001 RequestPath:/api/values
+      Wildcard detected, all requests with hosts will be allowed.
+dbug: Microsoft.AspNetCore.Routing.Matching.DfaMatcher[CandidatesFound] @ 2019-09-18T12:48:46.5753129-03:00
+      => ConnectionId:0HLPS9UNMKA7Q => RequestId:0HLPS9UNMKA7Q:00000001 RequestPath:/api/values
+      1 candidate(s) found for the request path '/api/values'
+dbug: Microsoft.AspNetCore.Routing.Matching.DfaMatcher[CandiateValid] @ 2019-09-18T12:48:46.5763503-03:00
+      => ConnectionId:0HLPS9UNMKA7Q => RequestId:0HLPS9UNMKA7Q:00000001 RequestPath:/api/values
+      Endpoint 'LogNativoExemplo.Controllers.ValuesController.Get (LogNativoExemplo)' with route pattern 'api/Values' is valid for the request path '/api/values'
+dbug: Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware[MatchSuccess] @ 2019-09-18T12:48:46.5773627-03:00
+      => ConnectionId:0HLPS9UNMKA7Q => RequestId:0HLPS9UNMKA7Q:00000001 RequestPath:/api/values
+      Request matched endpoint 'LogNativoExemplo.Controllers.ValuesController.Get (LogNativoExemplo)'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[ExecutingEndpoint] @ 2019-09-18T12:48:46.5815878-03:00
+      => ConnectionId:0HLPS9UNMKA7Q => RequestId:0HLPS9UNMKA7Q:00000001 RequestPath:/api/values
+      Executing endpoint 'LogNativoExemplo.Controllers.ValuesController.Get (LogNativoExemplo)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3] @ 2019-09-18T12:48:46.6027969-03:00
+      => ConnectionId:0HLPS9UNMKA7Q => RequestId:0HLPS9UNMKA7Q:00000001 RequestPath:/api/values => LogNativoExemplo.Controllers.ValuesController.Get (LogNativoExemplo)
+      Route matched with {action = "Get", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get() on controller LogNativoExemplo.Controllers.ValuesController (LogNativoExemplo).
+dbug: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1] @ 2019-09-18T12:48:46.6037556-03:00
+      => ConnectionId:0HLPS9UNMKA7Q => RequestId:0HLPS9UNMKA7Q:00000001 RequestPath:/api/values => LogNativoExemplo.Controllers.ValuesController.Get (LogNativoExemplo)
+      Execution plan of authorization filters (in the following order): None
+dbug: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1] @ 2019-09-18T12:48:46.6042827-03:00
+      => ConnectionId:0HLPS9UNMKA7Q => RequestId:0HLPS9UNMKA7Q:00000001 RequestPath:/api/values => LogNativoExemplo.Controllers.ValuesController.Get (LogNativoExemplo)
+      Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.SaveTempDataFilter
+dbug: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1] @ 2019-09-18T12:48:46.6044690-03:00
+      => ConnectionId:0HLPS9UNMKA7Q => RequestId:0HLPS9UNMKA7Q:00000001 RequestPath:/api/values => LogNativoExemplo.Controllers.ValuesController.Get (LogNativoExemplo)
+      Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+dbug: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1] @ 2019-09-18T12:48:46.6047134-03:00
+      => ConnectionId:0HLPS9UNMKA7Q => RequestId:0HLPS9UNMKA7Q:00000001 RequestPath:/api/values => LogNativoExemplo.Controllers.ValuesController.Get (LogNativoExemplo)
+      Execution plan of exception filters (in the following order): None
+dbug: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1] @ 2019-09-18T12:48:46.6048006-03:00
+      => ConnectionId:0HLPS9UNMKA7Q => RequestId:0HLPS9UNMKA7Q:00000001 RequestPath:/api/values => LogNativoExemplo.Controllers.ValuesController.Get (LogNativoExemplo)
+      Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.SaveTempDataFilter, Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1] @ 2019-09-18T12:48:46.6155220-03:00
+      => ConnectionId:0HLPS9UNMKA7Q => RequestId:0HLPS9UNMKA7Q:00000001 RequestPath:/api/values => LogNativoExemplo.Controllers.ValuesController.Get (LogNativoExemplo)
+      Executing action method LogNativoExemplo.Controllers.ValuesController.Get (LogNativoExemplo) - Validation state: Valid
+info: LogNativoExemplo.Controllers.ValuesController[0] @ 2019-09-18T12:48:49.5362864-03:00
+      => ConnectionId:0HLPS9UNMKA7Q => RequestId:0HLPS9UNMKA7Q:00000001 RequestPath:/api/values => LogNativoExemplo.Controllers.ValuesController.Get (LogNativoExemplo)
+      Primeiro Log
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2] @ 2019-09-18T12:48:49.5400532-03:00
+      => ConnectionId:0HLPS9UNMKA7Q => RequestId:0HLPS9UNMKA7Q:00000001 RequestPath:/api/values => LogNativoExemplo.Controllers.ValuesController.Get (LogNativoExemplo)
+      Executed action method LogNativoExemplo.Controllers.ValuesController.Get (LogNativoExemplo), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2920.9384ms.
+dbug: Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector[11] @ 2019-09-18T12:48:49.5466454-03:00
+      => ConnectionId:0HLPS9UNMKA7Q => RequestId:0HLPS9UNMKA7Q:00000001 RequestPath:/api/values => LogNativoExemplo.Controllers.ValuesController.Get (LogNativoExemplo)
+      List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter
+dbug: Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector[4] @ 2019-09-18T12:48:49.5502019-03:00
+      => ConnectionId:0HLPS9UNMKA7Q => RequestId:0HLPS9UNMKA7Q:00000001 RequestPath:/api/values => LogNativoExemplo.Controllers.ValuesController.Get (LogNativoExemplo)
+      No information found on request to perform content negotiation.
+dbug: Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector[8] @ 2019-09-18T12:48:49.5502524-03:00
+      => ConnectionId:0HLPS9UNMKA7Q => RequestId:0HLPS9UNMKA7Q:00000001 RequestPath:/api/values => LogNativoExemplo.Controllers.ValuesController.Get (LogNativoExemplo)
+      Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+dbug: Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector[10] @ 2019-09-18T12:48:49.5503317-03:00
+      => ConnectionId:0HLPS9UNMKA7Q => RequestId:0HLPS9UNMKA7Q:00000001 RequestPath:/api/values => LogNativoExemplo.Controllers.ValuesController.Get (LogNativoExemplo)
+      Attempting to select the first formatter in the output formatters list which can write the result.
+dbug: Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector[2] @ 2019-09-18T12:48:49.5508082-03:00
+      => ConnectionId:0HLPS9UNMKA7Q => RequestId:0HLPS9UNMKA7Q:00000001 RequestPath:/api/values => LogNativoExemplo.Controllers.ValuesController.Get (LogNativoExemplo)
+      Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter' and content type 'application/json' to write the response.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1] @ 2019-09-18T12:48:49.5542566-03:00
+      => ConnectionId:0HLPS9UNMKA7Q => RequestId:0HLPS9UNMKA7Q:00000001 RequestPath:/api/values => LogNativoExemplo.Controllers.ValuesController.Get (LogNativoExemplo)
+      Executing ObjectResult, writing value of type 'System.String[]'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2] @ 2019-09-18T12:48:49.6304108-03:00
+      => ConnectionId:0HLPS9UNMKA7Q => RequestId:0HLPS9UNMKA7Q:00000001 RequestPath:/api/values => LogNativoExemplo.Controllers.ValuesController.Get (LogNativoExemplo)
+      Executed action LogNativoExemplo.Controllers.ValuesController.Get (LogNativoExemplo) in 3019.4986ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[ExecutedEndpoint] @ 2019-09-18T12:48:49.6321048-03:00
+      => ConnectionId:0HLPS9UNMKA7Q => RequestId:0HLPS9UNMKA7Q:00000001 RequestPath:/api/values
+      Executed endpoint 'LogNativoExemplo.Controllers.ValuesController.Get (LogNativoExemplo)'
+dbug: Microsoft.AspNetCore.Server.Kestrel[ConnectionKeepAlive] @ 2019-09-18T12:48:49.6340328-03:00
+      => ConnectionId:0HLPS9UNMKA7Q => RequestId:0HLPS9UNMKA7Q:00000001 RequestPath:/api/values
+      Connection id "0HLPS9UNMKA7Q" completed keep alive response.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2] @ 2019-09-18T12:48:49.6403592-03:00
+      => ConnectionId:0HLPS9UNMKA7Q => RequestId:0HLPS9UNMKA7Q:00000001 RequestPath:/api/values
+      Request finished in 3097.555ms 200 application/json; charset=utf-8

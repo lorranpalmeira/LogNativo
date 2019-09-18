@@ -1,0 +1,14 @@
+C:\Users\Lorran\Documents\Projetos\dotnet\LogNativoExemplo\bin\Debug\netcoreapp2.2\LogNativoExemplo.deps.json
+C:\Users\Lorran\Documents\Projetos\dotnet\LogNativoExemplo\bin\Debug\netcoreapp2.2\LogNativoExemplo.runtimeconfig.json
+C:\Users\Lorran\Documents\Projetos\dotnet\LogNativoExemplo\bin\Debug\netcoreapp2.2\LogNativoExemplo.runtimeconfig.dev.json
+c:\Users\Lorran\Documents\Projetos\dotnet\LogNativoExemplo\bin\Debug\netcoreapp2.2\LogNativoExemplo.dll
+c:\Users\Lorran\Documents\Projetos\dotnet\LogNativoExemplo\bin\Debug\netcoreapp2.2\LogNativoExemplo.pdb
+c:\Users\Lorran\Documents\Projetos\dotnet\LogNativoExemplo\obj\Debug\netcoreapp2.2\LogNativoExemplo.csprojAssemblyReference.cache
+c:\Users\Lorran\Documents\Projetos\dotnet\LogNativoExemplo\obj\Debug\netcoreapp2.2\LogNativoExemplo.csproj.CoreCompileInputs.cache
+c:\Users\Lorran\Documents\Projetos\dotnet\LogNativoExemplo\obj\Debug\netcoreapp2.2\LogNativoExemplo.RazorAssemblyInfo.cache
+c:\Users\Lorran\Documents\Projetos\dotnet\LogNativoExemplo\obj\Debug\netcoreapp2.2\LogNativoExemplo.RazorAssemblyInfo.cs
+c:\Users\Lorran\Documents\Projetos\dotnet\LogNativoExemplo\obj\Debug\netcoreapp2.2\LogNativoExemplo.AssemblyInfoInputs.cache
+c:\Users\Lorran\Documents\Projetos\dotnet\LogNativoExemplo\obj\Debug\netcoreapp2.2\LogNativoExemplo.AssemblyInfo.cs
+c:\Users\Lorran\Documents\Projetos\dotnet\LogNativoExemplo\obj\Debug\netcoreapp2.2\LogNativoExemplo.RazorTargetAssemblyInfo.cache
+c:\Users\Lorran\Documents\Projetos\dotnet\LogNativoExemplo\obj\Debug\netcoreapp2.2\LogNativoExemplo.dll
+c:\Users\Lorran\Documents\Projetos\dotnet\LogNativoExemplo\obj\Debug\netcoreapp2.2\LogNativoExemplo.pdb
