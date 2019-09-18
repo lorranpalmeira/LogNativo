@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using LogNativoExemplo.Model;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Newtonsoft.Json;
 
 namespace LogNativoExemplo.Controllers
 {
@@ -24,7 +26,16 @@ namespace LogNativoExemplo.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
+            var pessoa = new Pessoa();
+            pessoa.Nome="Lorran";
+            pessoa.Idade=27;
+
+            var pessoaToJson = JsonConvert.SerializeObject(pessoa);
+
             _logger.LogInformation("Primeiro Log");
+
+             _logger.LogInformation($"Log Pessoa {pessoaToJson}");
+
             return new string[] { "value1", "value2" };
             
         }
